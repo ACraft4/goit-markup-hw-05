@@ -277,11 +277,30 @@ h6 {
   flex-wrap: wrap;
 }
 .what-we-do-section-item {
+  position: relative;
   margin-right: 30px;
   font-size: 0;
 }
 .what-we-do-section-item:nth-last-child(1) {
   margin-right: 0;
+}
+.what-we-do-text {
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.what-we-do-cover {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 .main-section-title {
   font-weight: bold;
